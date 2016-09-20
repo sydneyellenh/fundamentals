@@ -1,0 +1,49 @@
+/*his is my code commented out.  Below is Paul's code I followed along with writing*/
+
+/*body {
+	background-color: lightgrey;
+}
+
+.subject {
+	text-align: center;
+}
+
+
+img {
+	width: 500px;
+	height: 400px;
+}*/
+
+h1 {
+	text-align: center;
+}
+
+#margin-padding-image {
+	width: 600px;
+	height: 500px;	
+}
+
+.margin-intro{
+	text-align: center;
+}
+
+
+/*Margins CSS*/
+
+.margins{
+	text-align: center;
+	border: 2px dashed blue;
+	
+	/*You can do margins like the commented out section below*/
+	/*margin-top: 75px;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	margin-left: 75px;*/
+
+/*	or like this easier way.  
+	It goes clocwise (top, right, bottom, left)*/
+
+	margin:  75px 100px 75px 100px;
+
+
+}

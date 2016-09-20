@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+}
+
+#number-one {
+	color: purple;
+}
+
+#number-two{
+	color: blue;
+	font-size: 24px;
+}
+
+.first-class{
+	font-family: sans-serif;
+}

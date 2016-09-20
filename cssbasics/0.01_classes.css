@@ -1,0 +1,37 @@
+body {
+	background-color: lightpink;
+}
+
+.important {
+	color: green;
+}
+
+.firstpara {
+	color: pink;
+	margin-left: 60%;
+	font-family: serif;
+	font-size: 23px;
+	background-color: black;
+	text-align: center;
+}
+
+.secondpara{
+	color: pink;
+	margin-right: 60%;
+	font-family: serif;
+	font-size: 23px;
+	background-color: black;
+	text-align: center;
+
+}
+
+.sydney{
+	color: black;
+	font-family: serif;
+	font-size: 50px;
+	text-align: center;
+	border-top-style: dashed black;
+	border-bottom-style: solid red;
+	border-right-style: solid red;
+	border-left-style: dashed black;
+}
