@@ -1,0 +1,103 @@
+body {
+	background-color: #FAEBD7;
+	
+}
+
+.header{
+	
+
+}
+
+#webname{
+	border: 1px solid black;
+	margin: 20px 525px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	text-align: center;
+	font-size: 50px;
+	background-color: #F0F8FF;
+
+}
+
+
+
+#navBar{
+	border: 1px solid black;
+	width:100%;
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline-block;
+	background-color: #F0F8FF;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#home{
+	margin: 20px 20px 20px 20px;
+}
+
+#about{
+	margin: 20px 20px 20px 20px;
+}
+
+#store{
+	margin: 20px 20px 20px 20px;
+}
+
+#blog{
+	margin: 20px 20px 20px 20px;
+}
+
+#contact{
+	margin: 20px 20px 20px 20px;
+}
+
+.portrait{
+	width: 300px;
+	height: 275px;
+	
+}
+
+.landscape{
+	width: 302px;
+	height: 200px;
+	
+
+}
+
+#mainTxt{
+	border: 1px solid black;
+	text-align: center;
+	margin: 30px 300px 3px 200px;
+	
+}
+
+.tileImgleft{ 
+	float: left; 
+	width: 25%; 
+	text-align: center;
+
+}
+
+
+.rightsidebar{ 
+	float: right; 
+	width: 25%; 
+	text-align: center;
+}
+
+
+.mainBody{ 
+	display: inline-block; 
+	width: 50%; 
+	text-align: center;
+
+}
+
+.sidebarId{
+	text-align: center;
+}
+
+
+
