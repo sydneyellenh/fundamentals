@@ -44,6 +44,66 @@ h1 {
 	It goes clocwise (top, right, bottom, left)*/
 
 	margin:  75px 100px 75px 100px;
+}
 
+
+.margins-padding {
+	border: 2px solid #00bcd4;
+	margin: 75px 75px 75px 75px;
+	text-align: center;
+	padding: 20px 20px 20px 40px;
+}
+
+.margin-experiment{
+	height: 40px;
+	background-color: #00bcd4;
+	border: 5px solid pink;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#circle{
+	width:100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin: 20px 0px 0px 20px;
+	position: absolute;
 
 }
+
+#square{
+	width:100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 0px;
+	margin: 20px 0px 0px 150px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

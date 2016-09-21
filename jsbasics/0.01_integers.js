@@ -74,10 +74,10 @@ newNum += 10; //shortcut for writing newNum = newNum + 10;
 console.log(newNum); //returns 30
 
 
-// newNum = newNum - 20;
+// newNum = newNum - 20;  this is the longhand method
 // console.log(newNum);
 
-newNum -= 20;
+newNum -= 20; //this is the shorthand method
 console.log(newNum);
 
 
