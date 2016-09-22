@@ -1,12 +1,12 @@
+/*Imported fonts for webpage*/
+@import url (https://fonts.google.com/specimen/Pacifico);
+
+
 body {
 	background-color: #FAEBD7;
 	
 }
 
-.header{
-	
-
-}
 
 #webname{
 	border: 1px solid black;
@@ -16,14 +16,21 @@ body {
 	text-align: center;
 	font-size: 50px;
 	background-color: #F0F8FF;
-	font-family: Brannboll Fed Regular;
+	font-family: Pacifico;
+	
 
 }
 
-
+button: active {
+    position: relative;
+    top: 1px;
+}
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+}
 
 #navBar{
-	border: 1px solid black;
 	width:100%;
 	margin: 20px 0px 0px 0px;
 	padding: 0px;
@@ -55,15 +62,15 @@ body {
 }
 
 .rightimg{
-	width: 300px;
-	height: 275px;
+	width: 250px;
+	height: 225px;
 
 	
 }
 
 .leftimg{
-	width: 302px;
-	height: 200px;
+	width: 252px;
+	height: 150px;
 	
 
 }
@@ -81,7 +88,8 @@ body {
 	width: 25%; 
 	text-align: center;
 	background-color: #F0F8FF;
-	border: 1px solid black;
+
+	
 
 }
 
@@ -91,7 +99,8 @@ body {
 	width: 25%; 
 	text-align: center;
 	background-color: #F0F8FF;
-	border: 1px solid black;
+
+	
 }
 
 
@@ -100,7 +109,8 @@ body {
 	width: 50%; 
 	text-align: center;
 	background-color: #F0F8FF;
-	border: 1px solid black;
+
+	
 
 
 
