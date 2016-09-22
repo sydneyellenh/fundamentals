@@ -16,6 +16,7 @@ body {
 	text-align: center;
 	font-size: 50px;
 	background-color: #F0F8FF;
+	font-family: Brannboll Fed Regular;
 
 }
 
@@ -53,13 +54,13 @@ body {
 	margin: 20px 20px 20px 20px;
 }
 
-.portrait{
+.rightimg{
 	width: 300px;
 	height: 275px;
 	
 }
 
-.landscape{
+.leftimg{
 	width: 302px;
 	height: 200px;
 	
@@ -93,11 +94,22 @@ body {
 	width: 50%; 
 	text-align: center;
 
+
+
 }
 
 .sidebarId{
 	text-align: center;
 }
 
+.rightimg{
+	float: right;
+}
 
+.leftimg{
+	float: left;
+}
 
+#blocktxt {
+	font-family: sans-serif;
+}
