@@ -1,5 +1,5 @@
 /*Imported fonts for webpage*/
-@import url (https://fonts.google.com/specimen/Pacifico);
+@import
 
 
 body {
@@ -70,7 +70,7 @@ button:hover {
 
 .leftimg{
 	width: 252px;
-	height: 150px;
+	height: 200px;
 	
 
 }

@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Haggard Photography</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Haggard Vintage</title>
+
+<!-- This is where my CDN links are -->
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- NOTE: Need these links for bootstrap https://www.bootstrapcdn.com/-->
+	  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -12,55 +22,70 @@
 
 		<br>
 
-		<div>
-			<nav id="navBar">
-				<a id="home" href="#">Home</a>
-				<a id="about" href="#">About</a>
-				<a id="store" href="#">Store</a>
-				<a id="blog" href="#">Blog</a>
-				<a id="contact" href="#">Contact Us</a>
+		<!-- This is my nav bar -->
 
-			</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+				<nav id="navBar">
+					<a id="home" href="#">Home</a>
+					<a id="about" href="#">About</a>
+					<a id="store" href="#">Store</a>
+					<a id="blog" href="#">Blog</a>
+					<a id="contact" href="#">Contact</a>
+				</nav>
+		</div>
+		</div>
 		</div>
 
-	<br>
 <!-- This is where I begin the body of my storefront -->
-<div class="tileImgleft">
 
-	<h3 class="sidebarId">Vintage Office Supplies of the Week</h3>	
-		<figure>
-			<img class="leftimg" src="img/letterset.png"> 
-				<figcaption>1960s Rare Royal Cursive Typewriter $495 </figcaption>
-		</figure>
+<!-- Left column -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
 
-		<figure>
-			<img class="leftimg" src="img/oldpinboard.png">
-				<figcaption>Vintage Mccaskey Receipt Clipboard $68</figcaption>
-		</figure> 
+			<h3 class="sidebarId">Office Supplies of the Week</h3>	
+				<figure>
+					<img class="leftimg" src="img/letterset.png"> 
+						<figcaption>1960s Rare Royal Cursive Typewriter $495 </figcaption>
+				</figure>
 
-		<figure>
-			<img class="leftimg" src="img/portfolioleather.png"> 
-				<figcaption> 9"x7" Retro Leather Portfolio $20</figcaption>
-		</figure>
+				<figure>
+					<img class="leftimg" src="img/oldpinboard.png">
+						<figcaption>Vintage Mccaskey Receipt Clipboard $68</figcaption>
+				</figure> 
+
+				<figure>
+					<img class="leftimg" src="img/portfolioleather.png"> 
+						<figcaption> 9"x7" Retro Leather Portfolio $20</figcaption>
+				</figure>
 		</div>
 
-<div class="mainBody">
-	<p id="blocktxt"> This is where my main text is going to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- Center column -->
+
+		<div class="col-sm-6">
+			<p id="blocktxt"> This is where my main text is going to go. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 	<br>
 
@@ -68,12 +93,12 @@
 		
 	</div>
 
-
-
 </div>
 
-<div class="rightsidebar">
-	<h3>Vintage Clothing Highlights</h3>
+<!-- Right column -->
+
+<div class="col-sm-3">
+	<h3>Popular Clothing</h3>
 	<figure>
 			<img class="rightimg" src="img/vintagejumpsuit.jpg">
 			<figcaption>Vintage Denim Jumpsuit $105</figcaption>
@@ -92,22 +117,8 @@
 		</figure>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
+</div>
+</div>
 	<!-- this is where I begin the footer of my storefront -->
 
 	
