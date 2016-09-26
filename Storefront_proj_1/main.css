@@ -1,5 +1,4 @@
 /*Imported fonts for webpage*/
-@import
 
 
 body {
@@ -83,36 +82,21 @@ button:hover {
 	
 }
 
-.tileImgleft{ 
-	float: left; 
-	width: 25%; 
+/*Left Sidebar*/
+
+.col-sm-3{  
 	text-align: center;
-	background-color: #F0F8FF;
-
-	
-
+	background-color: #F0F8FF;	
+}
+.leftimg{
+	float: left;
 }
 
+/*Middle column*/
 
-.rightsidebar{ 
-	float: right; 
-	width: 25%; 
+.com-sm-6{ 
 	text-align: center;
 	background-color: #F0F8FF;
-
-	
-}
-
-
-.mainBody{ 
-	display: inline-block; 
-	width: 50%; 
-	text-align: center;
-	background-color: #F0F8FF;
-
-	
-
-
 
 }
 
@@ -124,10 +108,14 @@ button:hover {
 	float: right;
 }
 
-.leftimg{
-	float: left;
-}
+
 
 #blocktxt {
 	font-family: sans-serif;
 }
+
+
+/*Hover Images*/
+
+
+
